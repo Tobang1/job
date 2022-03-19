@@ -37,4 +37,5 @@ sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 775 /var/www/html
 
 # 3. Add yourself to apache group(www-data)
+dc
 sudo usermod -a -G www-data your_username
