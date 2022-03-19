@@ -18,3 +18,5 @@ Only google email can upload
 
 add sql file to mysql
 sudo mysql -u admin -p mydb < drives_files.sql
+
+google api
