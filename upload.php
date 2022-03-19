@@ -2,8 +2,13 @@
 // Include database configuration file
 require_once 'dbConfig.php';
 
+
+//variables
 $statusMsg = $valErr = '';
 $status = 'danger';
+$username = "";
+$email    = "";
+
 
 // If the form is submitted
 if(isset($_POST['submit'])){
@@ -15,7 +20,7 @@ if(isset($_POST['submit'])){
 
     // Check whether user inputs are empty
     if(empty($valErr)){
-        $targetDir = "/var/www/job/uploads";
+        $targetDir = "/var/www/job/uploads/";
         $fileName = basename($_FILES["file"]["name"]);
         $targetFilePath = $targetDir . $fileName;
 
