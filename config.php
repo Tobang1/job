@@ -2,7 +2,7 @@
 // Database configuration
 define('DB_HOST', 'localhost');
 define('DB_USERNAME', 'admin');
-define('DB_PASSWORD', 'Admin001.Com');
+define('DB_PASSWORD', 'Admin001.COm');
 define('DB_NAME', 'mydb');
 
 // Google API configuration
