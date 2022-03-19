@@ -17,7 +17,7 @@ if(!empty($_SESSION['status_response'])){
 <?php } ?>
 
 <div class="col-md-12">
-    <h1> UPLOAD YOUR CV </h1>
+    <h1> UPLOAD YOUR CV Testing </h1>
     <form method="post" action="upload.php" class="form" enctype="multipart/form-data">
         <div class="form-group">
             <label>File</label>
