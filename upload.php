@@ -15,7 +15,7 @@ if(isset($_POST['submit'])){
 
     // Check whether user inputs are empty
     if(empty($valErr)){
-        $targetDir = "/var/www/job/uploads";
+        $targetDir = "/var/www/job/uploads/";
         $fileName = basename($_FILES["file"]["name"]);
         $targetFilePath = $targetDir . $fileName;
 
