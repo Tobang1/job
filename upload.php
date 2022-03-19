@@ -2,8 +2,13 @@
 // Include database configuration file
 require_once 'dbConfig.php';
 
+
+//variables
 $statusMsg = $valErr = '';
 $status = 'danger';
+$username = "";
+$email    = "";
+
 
 // If the form is submitted
 if(isset($_POST['submit'])){
