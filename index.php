@@ -24,7 +24,7 @@ if(!empty($_SESSION['status_response'])){
     
 
     <div class="login-wrap">
-    <h1> UPLOAD YOUR CV Testing </h1>
+    <h1> RECRUITMENT </h1>
         <div class="login-html">
             <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Front-End </label>
             <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Back-End</label>
