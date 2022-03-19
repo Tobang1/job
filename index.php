@@ -50,7 +50,7 @@ if(!empty($_SESSION['status_response'])){
             <input type="file" name="file" class="form-control">
         </div>
         <div class="form-group">
-            <input type="submit" class="form-control btn-primary" name="submit" value="Upload"/>
+            <input type="submit" class="button" name="submit" value="Upload"/>
         </div>
     </div>
 
@@ -77,7 +77,7 @@ if(!empty($_SESSION['status_response'])){
             <input type="file" name="file" class="form-control">
         </div>
         <div class="form-group">
-            <input type="submit" class="form-control btn-primary" name="submit" value="Upload"/>
+            <input type="submit" class="button" name="submit" value="Upload"/>
         </div>
 
 
