@@ -37,9 +37,14 @@ sudo chown -R www-data:www-data /var/www/html
 sudo chmod -R 775 /var/www/html
 
 # 3. Add yourself to apache group(www-data)
+<<<<<<< HEAD
+dc
+sudo usermod -a -G www-data your_username
+=======
 sudo usermod -a -G www-data your_username
 
 
 
 error undefined function curl_init()  = sudo apt-get install php-curl
 
+>>>>>>> master
