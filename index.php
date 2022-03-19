@@ -19,13 +19,10 @@ if(!empty($_SESSION['status_response'])){
     <div class="alert alert-<?php echo $status; ?>"><?php echo $statusMsg; ?></div>
 <?php } ?>
 
-
-    <h1> UPLOAD YOUR CV Testing </h1>
-    
-
     <div class="login-wrap">
-    <h1> RECRUITMENT </h1>
+
         <div class="login-html">
+        <h1> RECRUITMENT </h1>
             <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab">Front-End </label>
             <input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab">Back-End</label>
             <div class="login-form">
